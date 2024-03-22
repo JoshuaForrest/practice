@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  color:#ffffff;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(44, 44, 44)
+}
+
+.banner {
+  position: relative; 
+  background-image: url('../images/Banner.jpg');
+  background-size: cover;
+  background-position: 100% 20%;
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+}
+.banner h1 {
+  position: absolute;
+  font-size: 100px;
+  font-weight: bold;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-shadow: 0 0 10px blueviolet;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  font-weight: bold;
+  background-color: blueviolet;
+  padding: 20px;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 20px;
+}
+
+nav a {
+  color: blueviolet;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color:rgb(255, 255, 255);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+  background-color:rgb(138, 100, 227);
+}
+.bannerabout {
+  position: relative; 
+  background-image: url('../images/BannerAbout.jpg');
+  background-size: cover;
+  background-position: 100% 40%;
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+}
+.bannerabout h1 {
+  position: absolute;
+  font-size: 100px;
+  font-weight: bold;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-shadow: 0 0 10px blueviolet;
+  text-align: center;
+}
+#backToTop {
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color:blueviolet;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#backToTop:hover {
+  color: rgb(255, 255, 255);
+  background-color:rgb(138, 100, 227);
+}
